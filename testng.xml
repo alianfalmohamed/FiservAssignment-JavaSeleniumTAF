@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite-1" parallel="false">
+
+    <test name="GoogleSearch" thread-count="1">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="environment" value="dev" />
+        <classes>
+            <class name="GoogleTestCase">
+            </class>
+        </classes>
+    </test>
+</suite>
