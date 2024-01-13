@@ -1,0 +1,17 @@
+[
+  {
+    "username": "user1",
+    "password": "password1",
+    "expectedResult": "Success"
+  },
+  {
+    "username": "user2",
+    "password": "password2",
+    "expectedResult": "Success"
+  },
+  {
+    "username": "user3",
+    "password": "invalidpass",
+    "expectedResult": "Failure"
+  }
+]

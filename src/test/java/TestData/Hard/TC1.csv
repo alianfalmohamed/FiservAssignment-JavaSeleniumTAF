@@ -1,0 +1,4 @@
+Username,Password,ExpectedResult
+user1,password1,Success
+user2,password2,Success
+user3,invalidpass,Failure

@@ -13,9 +13,12 @@
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/actionHelper/WebActionHelperMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driverManager/DriverManagerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driverManager/WebDrivers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/listeners/TestListner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/reportManager/ExtentManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/util/utility.java" afterDir="false" />
@@ -23,6 +26,9 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/Pages/GooglePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/GoogleTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestData/Dev/TC1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestData/Hard/TC1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestData/Test/TC1.xls" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="XML Properties File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
