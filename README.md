@@ -9,6 +9,7 @@ Selenium page object automation framework using java &amp; Maven &amp; TestNG & 
 ** 3. Run testng.xml **
 
 ## Project Structure
-### Package & Classes
+### src->main-java has all common libraries
+
 
 
