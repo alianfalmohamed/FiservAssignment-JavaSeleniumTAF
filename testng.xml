@@ -4,10 +4,10 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="environment" value="dev" />
 
-    <test name="googleSearchTest" thread-count="1">
+    <test name="AllPagesForDannyAndAndrew" thread-count="1">
         <classes>
-            <class name="GoogleTestCase">
-            </class>
+<!--            <class name="TestCases.GoogleTestCase"> </class>-->
+            <class name="TestCases.AllTestPages"> </class>
         </classes>
     </test>
 

@@ -1,5 +1,6 @@
 package TestCases;
 
+import Pages.BingPage;
 import Pages.GooglePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.config.DriverManagerType;
@@ -15,12 +16,11 @@ import util.utility;
 import java.util.Properties;
 public class BaseTest {
 
-    public GooglePage googlePage;
+    public static GooglePage googlePage;
+    public static BingPage bingPage;
     protected WebDriver driver;
     Properties properties;
-    public static String URL = null;
     public static String CHROME_DRIVER_PATH = null;
-
 
     @BeforeSuite
     @Parameters({ "browserName", "environment" })
@@ -33,9 +33,6 @@ public class BaseTest {
         //Read all properties from Env.Properties file
         properties = utility.loadProperties(propertyPath);
 
-        //Get URL and DriverPath instead of hardcoding
-        URL = properties.getProperty("URL");
-        System.out.println("URL is " + URL);
         CHROME_DRIVER_PATH = properties.getProperty("CHROME_DRIVER_PATH");
         System.out.println(CHROME_DRIVER_PATH);
         System.setProperty("webdriver.chrome.driver", CHROME_DRIVER_PATH);
@@ -70,7 +67,7 @@ public class BaseTest {
                 break;
         }
         googlePage = new GooglePage(driver);
-        driver.get(URL);
+        bingPage = new BingPage(driver);
     }
 
     @AfterSuite
